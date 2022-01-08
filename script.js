@@ -3,12 +3,11 @@ const charactersLower = 'abcdefghijklmnopqrstuvwxyz';
 const charactersUpper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const charactersNumeric = '0123456789';
 const charactersSpecial= '!@#$%^&*()_+~`|}{[]\:;?><,./-=';
-
+var password="";
 
 
 var generatePassword = function() {
-  
-var PoolofChars = ' ';
+var PoolofChars ="";
 var criteria = {
     length:8,
     lowercase: new Boolean(true),
@@ -55,27 +54,20 @@ window.alert(" You MUST choose at LEAST 1 character type");
 generatePassword();
 }
 
-
-
-}
-
-
-/*for(i=0; i<criteria.length; i++) 
+console.log(PoolofChars);
+for(i=0; i<criteria.length; i++) 
 {
-
+  const charactersLength = PoolofChars.length;
+  password += PoolofChars.charAt(Math.floor(Math.random() * charactersLength+1));
+  console.log(password);
 
 }
-
+console.log(password);
+return password;
 }
-while()
-var PasswordCharPool= function() {
-  
-  
 
-  return result; 
- }
 
-  */
+
 
 
 
@@ -84,12 +76,14 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
+  
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
+  
 
 }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
