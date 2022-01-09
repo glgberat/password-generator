@@ -6,7 +6,7 @@ This application generates a random password based on choosen criterias;
 Special Characters, Numeric, Uppercase, Lowercase.
 
 To execute, click the "Generate Password" button and enter the criterias of your password;
-Enter an input of how many characters do you want in your password? (Must be between 8-128 characters).
+Enter how many characters do you want in your password. (Must be between 8-128 characters).
 
 
 ## Built With
