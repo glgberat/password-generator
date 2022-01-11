@@ -3,10 +3,10 @@
 ## Purpose
 This application generates a random password based on choosen criterias;
 
-Special, Numeric, Uppercase, Lowercase.
+Special Characters, Numeric, Uppercase, Lowercase.
 
 To execute, click the "Generate Password" button and enter the criterias of your password;
-Enter an input of how many characters do you want in your password? (Must be between 8-128 characters).
+Enter how many characters do you want in your password (Must be between 8-128 characters).
 
 
 ## Built With
@@ -23,4 +23,4 @@ https://glgberat.github.io/password-generator/
 
 
 ## Contribution
-Made with ❤️ by [Mehmet B Huyuk]
+Made by [Mehmet B Huyuk]
